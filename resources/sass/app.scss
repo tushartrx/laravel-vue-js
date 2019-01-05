@@ -4,11 +4,24 @@
 
 // Variables
 @import 'variables';
+$fa-font-path:"../webfonts";
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+@import '~admin-lte/dist/css/adminlte.css';
+
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+@import "~@fortawesome/fontawesome-free/css/brands.css";
+
+
 
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.router-link-exact-active{
+  background-color: #1964c1;
+  color: white;
 }
